@@ -52,7 +52,7 @@ body{
 }
 /* header */
 header{
-    margin-bottom: 30px;
+    border: 1px solid #ECECEC;
 }
 
 .logo{
@@ -130,8 +130,7 @@ header{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    
-    
+    margin-bottom: 94px;
 }
 .hero-title{
     font-weight: 900;
@@ -254,6 +253,9 @@ padding-bottom: 30px;
     text-align: center;
 }
 /* portfolio */
+.portfolio{
+    margin-top: 94px;
+}
 .portfolio-header{
     display: none
 }
@@ -334,7 +336,6 @@ padding-bottom: 30px;
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-   
 }
 .logo-footer{
     font-family: 'Raleway', sans-serif;
