@@ -23,14 +23,16 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="main-nav">
+    <header>
       <div class="container main-nav">
         <a href="./index.html" class="logo">
           <span class="accent">Web</span>Studio</a
         >
         <nav>
           <ul class="navigation list">
-            <li class="nav-list"><a href="./index.html" class="nav-link link">Студія</a></li>
+            <li class="nav-list">
+              <a href="./index.html" class="nav-link link">Студія</a>
+            </li>
 
             <li class="nav-list">
               <a href="./portfolio.html" class="nav-link link active-page"
@@ -38,10 +40,12 @@
               >
             </li>
 
-            <li class="nav-list"><a href="" class="nav-link link">Контакти</a></li>
+            <li class="nav-list">
+              <a href="" class="nav-link link">Контакти</a>
+            </li>
           </ul>
         </nav>
-      
+
         <ul class="contacts list">
           <li class="cont-list">
             <a href="mailto:info@devstudio.com" class="number link"
@@ -57,7 +61,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="portfolio-header">Портфоліо</h1>
+          <h1 class="portfolio-header visually-hidden">Портфоліо</h1>
           <ul class="potfolio-buttons list">
             <li class="ptf-btn">
               <button type="button" class="potfolio-button active-button">
@@ -84,9 +88,12 @@
                   src="./img/technokriak.jpg"
                   alt=" фото веб-сайт Технокряк"
                   width="370"
+                  class="img"
                 />
-                <h2 class="portfolio-exmp-header">Технокряк</h2>
-                <p class="portfolio-exmp-text">Веб-сайт</p>
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">Технокряк</h2>
+                  <p class="portfolio-exmp-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="ptf-exmp">
@@ -95,19 +102,29 @@
                   src="./img/restaurant.jpg"
                   alt="логотип ресторану"
                   width="370"
+                  class="img"
                 />
-                <h2 class="portfolio-exmp-header">Ресторан Seafood</h2>
-                <p class="portfolio-exmp-text">Додаток</p>
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">Ресторан Seafood</h2>
+                  <p class="portfolio-exmp-text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="ptf-exmp">
               <a href="" class="portfolio-link link"
-                ><img src="./img/poster.jpg" alt="проект дизайну" width="370" />
-                <h2 class="portfolio-exmp-header">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="portfolio-exmp-text">Дизайн</p></a
-              >
+                ><img
+                  src="./img/poster.jpg"
+                  alt="проект дизайну"
+                  width="370"
+                  class="img"
+                />
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-exmp-text">Дизайн</p>
+                </div>
+              </a>
             </li>
             <li class="ptf-exmp">
               <a href="" class="portfolio-link link"
@@ -115,17 +132,27 @@
                   src="./img/headphones.jpg"
                   alt=" фото навушників"
                   width="370"
+                  class="img"
                 />
-                <h2 class="portfolio-exmp-header">Проєкт Prime</h2>
-                <p class="portfolio-exmp-text">Маркетинг</p></a
-              >
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">Проєкт Prime</h2>
+                  <p class="portfolio-exmp-text">Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="ptf-exmp">
               <a href="" class="portfolio-link link"
-                ><img src="./img/boxes.jpg" alt="поготип додатку" width="370" />
-                <h2 class="portfolio-exmp-header">Проєкт Boxes</h2>
-                <p class="portfolio-exmp-text">Додаток</p></a
-              >
+                ><img
+                  src="./img/boxes.jpg"
+                  alt="поготип додатку"
+                  width="370"
+                  class="img"
+                />
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">Проєкт Boxes</h2>
+                  <p class="portfolio-exmp-text">Додаток</p>
+                </div>
+              </a>
             </li>
 
             <li class="ptf-exmp">
@@ -134,20 +161,30 @@
                   src="./img/website.jpg"
                   alt="фото веб-сайту"
                   width="370"
+                  class="img"
                 />
-                <h2 class="portfolio-exmp-header">
-                  Inspiration has no Borders
-                </h2>
-                <p class="portfolio-exmp-text">Веб-сайт</p></a
-              >
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="portfolio-exmp-text">Веб-сайт</p>
+                </div>
+              </a>
             </li>
 
             <li class="ptf-exmp">
               <a href="" class="portfolio-link link">
-                <img src="./img/magazine.jpg" alt="фото журналу" width="370" />
-                <h2 class="portfolio-exmp-header">Видання Limited Edition</h2>
-                <p class="portfolio-exmp-text">Дизайн</p></a
-              >
+                <img
+                  src="./img/magazine.jpg"
+                  alt="фото журналу"
+                  width="370"
+                  class="img"
+                />
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">Видання Limited Edition</h2>
+                  <p class="portfolio-exmp-text">Дизайн</p>
+                </div>
+              </a>
             </li>
 
             <li class="ptf-exmp">
@@ -156,18 +193,28 @@
                   src="./img/project.jpg"
                   alt="постер для проекту"
                   width="370"
+                  class="img"
                 />
-                <h2 class="portfolio-exmp-header">Проєкт LAB</h2>
-                <p class="portfolio-exmp-text">Маркетинг</p></a
-              >
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">Проєкт LAB</h2>
+                  <p class="portfolio-exmp-text">Маркетинг</p>
+                </div>
+              </a>
             </li>
 
             <li class="ptf-exmp">
               <a href="" class="portfolio-link link"
-                ><img src="./img/bussines.jpg" alt="фото додатку" width="370" />
-                <h2 class="portfolio-exmp-header">Growing Business</h2>
-                <p class="portfolio-exmp-text">Додаток</p></a
-              >
+                ><img
+                  src="./img/bussines.jpg"
+                  alt="фото додатку"
+                  width="370"
+                  class="img"
+                />
+                <div class="exmp-dscr">
+                  <h2 class="portfolio-exmp-header">Growing Business</h2>
+                  <p class="portfolio-exmp-text">Додаток</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -180,7 +227,7 @@
         >
         <address>
           <ul class="navigation-footer list">
-            <li>
+            <li class="adress">
               <a
                 href="https://goo.gl/maps/dw1KgWfuE3nz5GUp7"
                 rel="noreferrer noopener"
@@ -189,12 +236,12 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li>
+            <li class="footer-nav">
               <a href="mailto:info@devstudio.com" class="mail-footer"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="footer-nav">
               <a href="tel:+380961111111" class="number-footer"
                 >+38 096 111 11 11</a
               >
