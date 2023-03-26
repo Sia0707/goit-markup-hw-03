@@ -43,6 +43,7 @@ body{
 }
 .section{
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .list{
     list-style: none;
@@ -52,7 +53,7 @@ body{
 }
 /* header */
 header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo{
@@ -130,7 +131,7 @@ header{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    margin-bottom: 94px;
+    
 }
 .hero-title{
     font-weight: 900;
@@ -163,6 +164,7 @@ header{
 
 .features{
     margin-bottom: 50px;
+    
 }
 .visually-hidden {
     position: absolute;
@@ -253,9 +255,7 @@ padding-bottom: 30px;
     text-align: center;
 }
 /* portfolio */
-.portfolio{
-    margin-top: 94px;
-}
+
 .portfolio-header{
     display: none
 }
@@ -302,11 +302,11 @@ padding-bottom: 30px;
 .ptf-exmp:nth-child(3n){
     margin-right: 0px;
 }
-.ptf-exmp:nth-child(n + 6){
+.ptf-exmp:nth-child(n + 7){
     margin-bottom: 0px;
 }
 .exmp-dscr{
-    padding: 20px 24px;
+    padding: 0 24px 20px 24px;
     border: 1px solid #EEEEEE;
 }
 .portfolio-exmp-header {
@@ -346,6 +346,9 @@ padding-bottom: 30px;
     color: var(--bg-color);
     text-decoration: none;
 }
+address{
+    margin-top: 28px;
+}
 .navigation-footer{ 
     font-weight: 400;
     font-size: 14px;
@@ -360,7 +363,7 @@ padding-bottom: 30px;
     color: var(--bg-color);
     text-decoration: none;
     font-style: normal;
-    margin-top: 28px;
+    
     
 }
 .footer-nav{
