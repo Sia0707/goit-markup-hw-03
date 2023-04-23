@@ -311,7 +311,8 @@ padding-bottom: 30px;
 }
 .exmp-dscr{
     padding: 20px 24px 20px 24px;
-    border: 0 solid #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-top: 0;
 }
 .portfolio-exmp-header {
     font-size: 18px;
